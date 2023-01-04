@@ -1,0 +1,71 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*TIC TAC TOE CSS
+ * Author: Frank Chen
+ * Date: 04/10/2022
+ * Purpose: To style our CSS stuff
+ */	
+
+//styles the buttons
+.button{
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-font-weight: bold;
+	-fx-font-size: 36;
+	-fx-background-color: #a5a5a5;
+	-fx-font-family: "Times New Roman";
+	-fx-border-color:black;
+    -fx-border-width: 3 3 3 3;
+}
+//styles the winning buttons
+.winning-button{
+	-fx-background-color: #f89531;
+	-fx-text-fill: white;
+}
+
+//styles the menu
+.dock{
+	-fx-background-color: black;
+	
+}
+.dock .label{
+	-fx-font-family: "Times New Roman";
+	-fx-text-fill: #f1f1f1;
+}
+
+//styles the "TIC TAC TOE" title of our main program
+.title{
+	-fx-background-color: black;
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-text-fill: #f1f1f1;
+}
+
+
+//styles our ok button
+.okButton{
+	-fx-background-color: #a5a5a5;
+	-fx-font-size: 11;
+}
+
+//styles our popup's textbox
+.text-area {
+    text-area-background: #333333 ;
+    -fx-text-fill: #f1f1f1;
+}
+
+.text-area .content { 
+    -fx-background-color: text-area-background ;
+    -fx-text-fill: #f1f1f1;
+}
+
+
+.context-menu { //styles our dropdown menu
+    //-fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: black;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    //-fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
+
+
